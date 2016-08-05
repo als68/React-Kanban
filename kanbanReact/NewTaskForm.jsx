@@ -1,3 +1,4 @@
+'use strict';
 import React from 'react';
 import style from ".././scss/styles.scss";
 
@@ -53,7 +54,7 @@ class NewTaskForm extends React.Component {
       {
         this.state.showNewTaskForm
           ? <div>
-              <select className="assignButton" id='priorityInput' value="Priority" name='priority'>
+              <select className="assignButton" id='priorityInput' name='priority'>
                 <option>Priority</option>
                 <option value="Low">Low</option>
                 <option value="Medium">Medium</option>
